@@ -33,8 +33,8 @@ class Image extends Component {
         return (
             <div>
 
-                <img src={this.state.ImgUrl} width={this.state.w} height={this.state.h} /><span></span>
-                <img src={this.state.ImgUrl2} width={this.state.w} height={this.state.h} />
+                <img src={this.state.ImgUrl} width={this.state.w} height={this.state.h} alt="picture1" /><span></span>
+                <img src={this.state.ImgUrl2} width={this.state.w} height={this.state.h} alt="picture2" />
                 <br></br>
                 <button onClick={this.HandleImageIncrease}>Increase Image</button>
                 <button className="buttonDecrease" onClick={this.HandleImageDecrease}>Decrese Image</button>
